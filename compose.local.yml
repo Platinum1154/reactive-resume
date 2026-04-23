@@ -1,0 +1,6 @@
+services:
+  reactive_resume:
+    image: reactive-resume-local:dev
+    build:
+      context: .
+      dockerfile: Dockerfile
